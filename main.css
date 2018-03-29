@@ -3,16 +3,17 @@
     border: 1px solid black;
     padding: 10px;
     height: 300px;
+    float:left;
 }
 
-#display {
+#total {
     border: 1px solid black;
     height: 50px;
     padding: 5px;
     font-family: consolas;
     margin-bottom: 10px;
     background-color: #eee;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 button {
