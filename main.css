@@ -4,6 +4,7 @@
     padding: 10px;
     height: 300px;
     float:left;
+    border-radius: 10px;
 }
 
 #total {
@@ -26,10 +27,15 @@ button {
     border: 1px solid black;
     margin-right: 9px;
     margin-bottom: 9px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+
 }
 
 button:hover {
-    background-color: yellow;
+    background-color: steelblue;
+    color:white;
+    
 }
 
 .clear {
