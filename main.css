@@ -1,9 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:url('')
+
+}
 #calculator {
     width: 200px;
     border: 1px solid black;
     padding: 10px;
     height: 300px;
-    float:left;
+    color: steelblue;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 #total {
