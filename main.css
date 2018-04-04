@@ -9,6 +9,7 @@
     border: 1px solid black;
     padding: 10px;
     height: 300px;
+<<<<<<< HEAD
     color: steelblue;
     border-radius: 1em;
     padding: 1em;
@@ -17,6 +18,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+=======
+    float:left;
+    border-radius: 10px;
+>>>>>>> 49d072f1cad2d496755eb14656c10aa52fa94463
 }
 
 #total {
@@ -39,10 +44,15 @@ button {
     border: 1px solid black;
     margin-right: 9px;
     margin-bottom: 9px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+
 }
 
 button:hover {
-    background-color: yellow;
+    background-color: steelblue;
+    color:white;
+    
 }
 
 .clear {
