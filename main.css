@@ -9,11 +9,8 @@
     border: 1px solid black;
     padding: 10px;
     height: 300px;
-<<<<<<< HEAD
     float:left;
     border-radius: 10px;
-=======
-<<<<<<< HEAD
     color: steelblue;
     border-radius: 1em;
     padding: 1em;
@@ -22,11 +19,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-=======
+
     float:left;
     border-radius: 10px;
->>>>>>> 49d072f1cad2d496755eb14656c10aa52fa94463
->>>>>>> 572a3e9cefed7d024f07562998f04164a42f1888
+
 }
 
 #total {
