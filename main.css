@@ -1,55 +1,65 @@
 
 #calculator {
-    width: 200px;
-    border: 1px solid black;
+    width: 300px;
     padding: 10px;
-    height: 300px;
+    height: 470px;
     float:left;
     border-radius: 10px;
-    color: steelblue;
+    opacity: 0.8;
     border-radius: 1em;
     padding: 1em;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-    float:left;
-    border-radius: 10px;
-
+    transform: translate(-50%, -50%);
+    background-color: black ;
+    box-shadow: 0 10px #666;
 }
 
 #total {
     border: 1px solid black;
-    height: 50px;
+    height: 63px;
     padding: 5px;
     font-family: consolas;
     margin-bottom: 10px;
-    background-color: #eee;
-    font-size: 30px;
+    font-size: 35px;
+    color:white !important;
+    background-color: #171717;
+    overflow: scroll;
 }
 
 button {
     text-align: center;
-    width: 40px;
-    height: 40px;
+    color: tomato;
+    background-color: black;
+    width: 98px;
+    height: 55px;
     float: right;
     cursor: pointer;
     padding: 10px;
-    border: 1px solid black;
-    margin-right: 9px;
-    margin-bottom: 9px;
-    border-radius: 10px;
-    font-size: 1.4rem;
-
+    /* border: 1px solid black; */
+    font-size: 23pt !important;
 }
 
-button:hover {
-    background-color: steelblue;
-    color:white;
-    
+button:hover :active{
+    border: 1px tomato solid !important;
 }
+button:active {
+    background-color:black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 
+}
 .clear {
     clear: both;
+}
+body{
+    background-color: grey;
+}
+img{
+    opacity: 0.6;
+    width: 300px;
+    border-radius: 10px;
+
 }
